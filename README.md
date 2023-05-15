@@ -36,37 +36,62 @@ We provide two sound files as examples (sample_reading.wav, sample_sustainedphon
 ### Voice characteristics calculation for sustained phonation task
 
 #### F0 variability
+```bash
 praat stsd.praat sample_sustainedphonation.wav sample_sustainedphonation.TextGrid 0 60 300 0.1 0.1
+```
 
 #### Formant F1/F2 calculation:
+```bash
 praat f1.praat sample_sustainedphonation.wav sample_sustainedphonation.TextGrid 4000 4 0.04
+```
+
+```bash
 praat f2.praat sample_sustainedphonation.wav sample_sustainedphonation.TextGrid 4000 4 0.04
+```
 
 #### Harmonics to noise ratio calculation:
+```bash
 praat hnr.praat sample_sustainedphonation.wav sample_sustainedphonation.TextGrid 60 0.1 0.1
+```
 
 #### Intensity variability
+```bash
 praat int_sd.praat sample_sustainedphonation.wav sample_sustainedphonation.TextGrid 0 60 0.1 0.1
+```
 
 #### Jitter
+```bash
 praat jitter.praat sample_sustainedphonation.wav sample_sustainedphonation.TextGrid 60 300 0.1 0.1
+```
 
 #### Shimmer
+```bash
 praat shimmer.praat sample_sustainedphonation.wav sample_sustainedphonation.TextGrid 60 300 0.1 0.1
+```
 
 #### Voice breaks
+```bash
 praat voicebreaks.praat sample_sustainedphonation.wav sample_sustainedphonation.TextGrid 60 300 0.1 0.1
+```
 
 ### Voice characteristics calculation for reading task
 
 ##### Intensity variability (reading task)
+```bash
 praat int_sd.praat sample_reading.wav sample_reading.TextGrid 1 60 0 0
+```
 
 #### Pause duration
+```bash
 praat pauseduration.praat sample_reading.wav sample_reading.TextGrid 60
+```
 
 #### Pause number
+```bash
 praat pauseduration.praat sample_reading.wav sample_reading.TextGrid 60
+```
 
 #### F0 variability
+```bash
 praat stsd.praat sample_reading.wav sample_reading.TextGrid 1 60 300 0 0
+```
