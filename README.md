@@ -2,15 +2,15 @@
 
 Praat scripts for MSA and PD speech analysis.
 
-This Github repository contains the code of the publication **XXXX**. Please refer to this publication for further details.
+This Github repository contains code of the publication **XXXX**. Please refer to this publication for further details.
 
 When using this software, please cite the work as: **XXXX**
 
 ## Usage
 
-Praat scripts can be called from command line by passing the name of the .wav soundfile, textgrid file and default parameters. Details regarding the parameters required for each script are explained in the file parameters.ods.
+Praat scripts can be called from command line by passing the name of the .wav soundfile, textgrid annotation file and required parameters. Details regarding the parameters are explained in the file parameters.ods.
 
-In general, we use sex-specific settings for pitch and formants:
+In general, we used sex-specific settings for pitch and formants:
 **male:**
 * minimum pitch: 60 Hz
 * maximum pitch: 300 Hz
