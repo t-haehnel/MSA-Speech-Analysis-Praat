@@ -2,9 +2,11 @@
 
 Praat scripts for MSA and PD speech analysis.
 
-This Github repository contains code of the publication **XXXX**. Please refer to this publication for further details.
+This Github repository contains code of the publication **Speech Differences between Multiple System Atrophy and Parkinson's Disease: a Multicenter Study**. Please refer to this publication for further details.
 
-When using this software, please cite the work as: **XXXX**
+When using this software, please cite the work as:
+**Tom Haehnel, Anna Nemitz, Katja Schimming, Luise Berger, Annemarie Vogel, Doreen Gruber, Nils Schnalke, Stefan Braeuer, Bjoern H Falkenburger, Florin Gandor
+medRxiv 2024.02.23.24303241; doi: https://doi.org/10.1101/2024.02.23.24303241**
 
 ## Usage
 
